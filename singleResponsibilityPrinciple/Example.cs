@@ -10,8 +10,9 @@ namespace SingleResponsabilityPrinciple.BadExample
     /// It contains the functionality of a radio and a gearbox.
     /// 
     /// This is not only bad because of clutter, 
-    /// but if a framework is built upon the 'Car' class, then
-    /// it will be very hard to change the behavior of the radio, or gearbox code.
+    /// but if a framework or library is built upon the 'Car' class, then
+    /// it could be hard or impossible to change the behavior of the radio 
+    /// or gearbox code without breaking something else.
     /// </summary>
     public abstract class Car
     {
