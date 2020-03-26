@@ -8,7 +8,6 @@
 /// </summary>
 namespace interfaceSegregationPrinciple.BadExample
 {
-
     /// <summary>
     /// Interface for a walk-able, swim-able and fly-able entity.
     /// </summary>
