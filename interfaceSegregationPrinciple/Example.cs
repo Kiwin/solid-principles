@@ -13,9 +13,9 @@ namespace interfaceSegregationPrinciple.BadExample
     /// </summary>
     public interface IAnimal
     {
-        public void Walk();
-        public void Swim();
-        public void Fly();
+        void Walk();
+        void Swim();
+        void Fly();
     }
 
     /// <summary>
@@ -65,7 +65,7 @@ namespace interfaceSegregationPrinciple.GoodExample
     /// </summary>
     public interface IWalk
     {
-        public void Walk();
+        void Walk();
     }
 
     /// <summary>
@@ -73,7 +73,7 @@ namespace interfaceSegregationPrinciple.GoodExample
     /// </summary>
     public interface ISwim
     {
-        public void Swim();
+        void Swim();
     }
 
     /// <summary>
@@ -81,7 +81,7 @@ namespace interfaceSegregationPrinciple.GoodExample
     /// </summary>
     public interface IFly
     {
-        public void Fly();
+        void Fly();
     }
 
     /// <summary>
