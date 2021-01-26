@@ -6,13 +6,13 @@
 namespace SingleResponsabilityPrinciple.BadExample
 {
     /// <summary>
-    /// This class is has way too much responsability.
+    /// This class has way too much responsability.
     /// It contains the functionality of a radio and a gearbox.
     /// 
     /// This is not only bad because of clutter, 
     /// but if a framework or library is built upon the 'Car' class, then
     /// it could be hard or impossible to change the behavior of the radio 
-    /// or gearbox code without breaking something else.
+    /// or gearbox code without breaking something else that dependents on the Car class.
     /// </summary>
     public abstract class Car
     {
