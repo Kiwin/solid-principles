@@ -48,12 +48,12 @@ namespace liskovSubstitutionPrinciple.BadExample
 
         public override void EatFood()
         {
-            return new Exception("Neutrient neglected! - Robot duck does not need food.");
+            throw new Exception("Neutrient neglected! - Robot duck does not need food.");
         }
 
         public override void Sleep()
         {
-            return new Exception("Neutrient neglected! - Robot duck does not need food.");
+            throw new Exception("Neutrient neglected! - Robot duck does not need food.");
         }
 
         public void Recharge()
