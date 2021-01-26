@@ -89,7 +89,7 @@ namespace liskovSubstitutionPrinciple.BadExample
 /// <summary>
 /// This namespace contains a good example of liskovs substitution principle.
 /// 
-/// There are many solutions to -, and desicions on, fixing the problem from the previous example.
+/// There are many solutions to -, and decisions on, fixing the problem from the previous example.
 /// In this example we better the program by segregating some functionality of the duck into some higher stuctures.
 /// A Robotduck is not a duck. Therefore it shouldn't inherit from 'Duck'. 
 /// It can fly though, and it does share some properties with the duck. 
